@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Nabla&family=Nanum+Brush+Script&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+main {
+    /* width: 730px;
+    margin: 0 auto; */
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+tr {
+    
+    background-color: black;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 19px;
+    background-image: linear-gradient(to right, #1d33da, #d90cf4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
+    height: 65px;
+    width: 65px;
+    font-size: 40px;
+    color: rgb(149, 141, 141);
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.two {
+    background-color: rgb(255, 255, 255, 0.3);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 150px;
+    height: 250px;
+    padding: 0 20px;
+    color: white;
+}
+
+.estadisticas {
+    border: 1px solid #e5e3ea;
+    height: 60px;
+    border-radius: 8px;
+    padding: 9px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    background-image: linear-gradient(to right, #f10ff1, #42b9c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Nanum Brush Script', cursive;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    font-size: 18px;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 510px) {
+    body {
+        margin: 50px;
+    }
+
+    main {
+        /* margin: 0 auto; */
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 0.9fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "."
+            ".";
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        background: none;
+        width: 80%;
+    }
+
+    .estadisticas {
+        font-size: 20px;
+    }
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border: none;
+    pointer-events: none;
+}
