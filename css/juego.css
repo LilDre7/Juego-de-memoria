@@ -75,6 +75,7 @@ p {
     font-size: 32px;
     font-weight: 600;
     font-family: "Nanum Brush Script", cursive;
+    margin-top: 40px;
 }
 
 a {
@@ -112,6 +113,7 @@ footer {
     }
 
     p {
+        margin-top: 10px;
         font-size: 24px;
     }
 
