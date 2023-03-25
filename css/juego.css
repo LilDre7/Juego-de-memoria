@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Nabla&family=Nanum+Brush+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dokdo&family=Nabla&family=Nanum+Brush+Script&display=swap");
 
 body {
     display: flex;
@@ -18,30 +18,26 @@ main {
 }
 
 .one {
-    background-color: rgb(255, 255, 255, 0.3);
+    background: rgb(255, 255, 255, 0.3);
     padding: 0 10px 10px 10px;
     border-radius: 8px;
-}
-
-tr {
-    
-    background-color: black;
 }
 
 
 h1 {
     text-align: center;
-    font-size: 19px;
+    font-size: 27px;
     background-image: linear-gradient(to right, #1d33da, #d90cf4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: "Nanum Brush Script", cursive;
 }
 
 button {
     height: 65px;
     width: 65px;
     font-size: 40px;
-    color: rgb(149, 141, 141);
+    color: rgba(221, 27, 27, 0.926);
     font-weight: bold;
 }
 
@@ -76,10 +72,9 @@ p {
     background-image: linear-gradient(to right, #f10ff1, #42b9c1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 600;
-    font-family: 'Nanum Brush Script', cursive;
-
+    font-family: "Nanum Brush Script", cursive;
 }
 
 a {
@@ -88,8 +83,7 @@ a {
     cursor: pointer;
 }
 
-a:hover {
-    font-size: 18px;
+p , a:hover {
     color: black;
 }
 
@@ -117,6 +111,10 @@ footer {
             ".";
     }
 
+    p {
+        font-size: 24px;
+    }
+
     .two {
         display: flex;
         flex-direction: column;
@@ -140,4 +138,9 @@ footer {
     z-index: -1;
     border: none;
     pointer-events: none;
+}
+
+footer , a  {
+    font-weight: bold;
+    font-size: 35px;
 }
